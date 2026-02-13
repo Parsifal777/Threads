@@ -4,6 +4,7 @@ public class Thread3 extends Thread {
     private Thread secondThread;
 
     public Thread3(Thread secondThread) {
+        super("Thread3");
         this.secondThread = secondThread;
     }
 
